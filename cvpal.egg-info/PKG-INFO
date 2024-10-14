@@ -1,10 +1,32 @@
-from setuptools import setup, find_packages
-import codecs
-import os
+Metadata-Version: 2.1
+Name: cvpal
+Version: 1.0.2
+Summary: A Python library for every Computer Vision Engineer
+Author: Mohamed E. Ibrahim
+Author-email: mohamedelsayed3487@gmail.com
+Keywords: python,computer vision,cv,Data Reformatting,YOLO,Roboflow,ultralytics,Data preprocessing
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: pyaml
+Requires-Dist: PyYAML
+Requires-Dist: python-dateutil
+Requires-Dist: numpy
+Requires-Dist: diffusers
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: torch
+Requires-Dist: openai
+Requires-Dist: tzdata
+Requires-Dist: six
 
-VERSION = '1.0.2'
-DESCRIPTION = 'A Python library for every Computer Vision Engineer'
-LONG_DESCRIPTION = """
+
 # CvPal 🖼️
 
 <div align="center">
@@ -146,51 +168,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
   <strong>Powered by VisionFullSpace</strong><br>
   Empowering Computer Vision Worldwide
 </div>
-"""
-
-# Setting up
-setup(
-    name="cvpal",
-    version=VERSION,
-    author="Mohamed E. Ibrahim",
-    author_email="mohamedelsayed3487@gmail.com",
-    description=DESCRIPTION,
-    long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
-    packages=find_packages(),
-    include_package_data=True,
-    zip_safe=False,
-    install_requires=[
-        'pandas',
-        'pyaml',
-        'PyYAML',
-        'python-dateutil',
-        'numpy',
-        'diffusers',
-        'matplotlib',
-        'pillow',
-        'torch',
-        'openai',
-        'tzdata',
-        'six'
-
-    ],
-    keywords=[
-        'python',
-        'computer vision',
-        'cv',
-        'Data Reformatting',
-        'YOLO',
-        'Roboflow',
-        'ultralytics',
-        'Data preprocessing'
-    ],
-    classifiers=[
-        "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
-    ]
-)

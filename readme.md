@@ -80,7 +80,7 @@ val: Rock-Paper-Scissors-SXSW-14/valid/images
 Install CvPal with a simple pip command:
 
 ```bash
-pip install cvpal==1.0.0
+pip install cvpal==1.0.2
 ```
 
 ## 🔧 Example Usage
