@@ -4,7 +4,6 @@
 
 ![CvPal Logo](assets/image.png)
 
-[![PyPI version](https://badge.fury.io/py/cvpal.svg)](https://badge.fury.io/py/cvpal)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1D_MNu3Z4lQYErs3wdYbsG4GVOU-p2ywF?usp=sharing)
 
